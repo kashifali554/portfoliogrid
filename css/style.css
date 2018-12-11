@@ -1,0 +1,9 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
