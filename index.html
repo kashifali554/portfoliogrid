@@ -203,6 +203,31 @@
                 <i class="fas fa-graduation-cap fa-3x d-block"></i>
                 <h4 class="text-center">Certifications</h4>
             </div>
+            <hr width="50%">
+
+            <div class="container">
+                    <h1 class="text-center">Certifications Gallery</h1>
+                    <p class="text-center">Salesforce, Microsoft Dynamics, Scrum Master and Product Managment Certifications</p>
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <a href="img/MCSA.png" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+                                <img src="img/MCSA.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+                                <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                                <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562" data-width="562">
+                                <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
         </div>
 
@@ -412,6 +437,30 @@
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dolorem!</p>
                 </div> 
 
+                <div class="container">
+                    <h1 class="text-center">Certifications Gallery</h1>
+                    <p class="text-center">Check my certifications</p>
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+                                <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                                <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562" data-width="562">
+                                <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
         </div>
         <!-- Contact -->
         <!-- <div id="contact" class="collapse">
@@ -485,6 +534,12 @@
     <script>
         $('.port-item').click(function(){
             $('.collapse').collapse('hide');
+        });
+
+         // Lightbox Init
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
         });
     </script>
 </body>
